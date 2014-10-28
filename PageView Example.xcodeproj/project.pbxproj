@@ -14,6 +14,11 @@
 		8AA8C86519FF6C3900B9146A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C86419FF6C3900B9146A /* Images.xcassets */; };
 		8AA8C86819FF6C3900B9146A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C86619FF6C3900B9146A /* LaunchScreen.xib */; };
 		8AA8C87419FF6C3900B9146A /* PageView_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8C87319FF6C3900B9146A /* PageView_ExampleTests.m */; };
+		8AA8C87F19FF6DE300B9146A /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA8C87E19FF6DE300B9146A /* PageContentViewController.m */; };
+		8AA8C88119FF70C400B9146A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C88019FF70C400B9146A /* 1.jpg */; };
+		8AA8C88319FF70CB00B9146A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C88219FF70CB00B9146A /* 2.jpg */; };
+		8AA8C88519FF70D000B9146A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C88419FF70D000B9146A /* 3.jpg */; };
+		8AA8C88719FF70D500B9146A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA8C88619FF70D500B9146A /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		8AA8C86D19FF6C3900B9146A /* PageView ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PageView ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA8C87219FF6C3900B9146A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA8C87319FF6C3900B9146A /* PageView_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView_ExampleTests.m; sourceTree = "<group>"; };
+		8AA8C87D19FF6DE300B9146A /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		8AA8C87E19FF6DE300B9146A /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		8AA8C88019FF70C400B9146A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
+		8AA8C88219FF70CB00B9146A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../2.jpg; sourceTree = "<group>"; };
+		8AA8C88419FF70D000B9146A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../3.jpg; sourceTree = "<group>"; };
+		8AA8C88619FF70D500B9146A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +93,16 @@
 			isa = PBXGroup;
 			children = (
 				8AA8C85B19FF6C3900B9146A /* AppDelegate.h */,
+				8AA8C88019FF70C400B9146A /* 1.jpg */,
+				8AA8C88619FF70D500B9146A /* 4.png */,
+				8AA8C88219FF70CB00B9146A /* 2.jpg */,
+				8AA8C88419FF70D000B9146A /* 3.jpg */,
 				8AA8C85C19FF6C3900B9146A /* AppDelegate.m */,
 				8AA8C85E19FF6C3900B9146A /* ViewController.h */,
 				8AA8C85F19FF6C3900B9146A /* ViewController.m */,
 				8AA8C86119FF6C3900B9146A /* Main.storyboard */,
+				8AA8C87D19FF6DE300B9146A /* PageContentViewController.h */,
+				8AA8C87E19FF6DE300B9146A /* PageContentViewController.m */,
 				8AA8C86419FF6C3900B9146A /* Images.xcassets */,
 				8AA8C86619FF6C3900B9146A /* LaunchScreen.xib */,
 				8AA8C85719FF6C3900B9146A /* Supporting Files */,
@@ -200,6 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA8C86319FF6C3900B9146A /* Main.storyboard in Resources */,
+				8AA8C88719FF70D500B9146A /* 4.png in Resources */,
+				8AA8C88119FF70C400B9146A /* 1.jpg in Resources */,
+				8AA8C88319FF70CB00B9146A /* 2.jpg in Resources */,
+				8AA8C88519FF70D000B9146A /* 3.jpg in Resources */,
 				8AA8C86819FF6C3900B9146A /* LaunchScreen.xib in Resources */,
 				8AA8C86519FF6C3900B9146A /* Images.xcassets in Resources */,
 			);
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA8C86019FF6C3900B9146A /* ViewController.m in Sources */,
+				8AA8C87F19FF6DE300B9146A /* PageContentViewController.m in Sources */,
 				8AA8C85D19FF6C3900B9146A /* AppDelegate.m in Sources */,
 				8AA8C85A19FF6C3900B9146A /* main.m in Sources */,
 			);
